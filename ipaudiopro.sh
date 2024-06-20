@@ -163,7 +163,7 @@ rm -rf $temp_dir/$targz_file >/dev/null 2>&1
 echo ''
 if [ $extract -eq 0 ]; then
 echo "> $plugin-$version package installed successfully"
-echo "> Uploaded By ElieSat"
+echo "> Uploaded By tarek"
 else
 echo "> $plugin-$version package installation failed"
 sleep 3

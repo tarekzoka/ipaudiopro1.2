@@ -7,8 +7,8 @@ package="enigma2-plugin-extensions-ipaudiopro"
 temp_dir="/tmp"
 
 #determine plugin url based on image version and device arch
-urlarm="https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.2/arm"
-urlmips="https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.2/mips"
+urlarm="https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/arm"
+urlmips="https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/mips"
 
 arch=$(uname -m)
 python=$(python -c "import platform; print(platform.python_version())")
@@ -75,8 +75,8 @@ echo "> Removing existing $package package, please wait..."
 $uninstall_command $package
 fi
 echo "*******************************************"
-echo "*             Removed Finished            *"
-echo "*            Uploaded By Eliesat          *"
+echo "*             Removed Finished                *"
+echo "*            Uploaded By TAREK-HANFY          *"
 echo "*******************************************"
 sleep 3
 exit 1

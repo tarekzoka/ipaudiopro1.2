@@ -8,7 +8,6 @@ temp_dir="/tmp"
 
 #determine plugin url based on image version and device arch
 urlarm="https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/arm"
-urlmips="https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/mips"
 
 arch=$(uname -m)
 python=$(python -c "import platform; print(platform.python_version())")

@@ -74,3 +74,4 @@ cam_del_old_versions ${PkgName}
 ${install} "/tmp/${FNAME}"
 
 rm -f "/tmp/${FNAME}"
+
